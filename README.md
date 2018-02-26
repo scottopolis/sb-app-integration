@@ -23,6 +23,8 @@ Include the following:
 - `$_POST['username']` or `$_SERVER['PHP_AUTH_USER']` (not all servers accept authentication headers)
 - `$_POST['password']` or `$_SERVER['PHP_AUTH_PW']` (not all servers accept authentication headers)
 
+**Be sure to change the security passphrase in class-wpapi-login.php, preferably a hash of some sort.**
+
 If a valid username, password, and security phrase is sent, a json success message will be returned that you can use in your app:
 
 	$return = array(
