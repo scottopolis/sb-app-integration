@@ -43,6 +43,8 @@ if( !class_exists( 'SB_App_Integration' ) ) {
             require_once plugin_dir_path( __FILE__ ) . 'inc/class-wpapi-login.php';
 
             require_once plugin_dir_path( __FILE__ ) . 'inc/class-wpapi-mods.php';
+
+            require_once plugin_dir_path( __FILE__ ) . 'inc/class-sb-woocommerce.php';
             
         }
 
