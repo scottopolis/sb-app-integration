@@ -32,7 +32,7 @@ if( !class_exists( 'SB_WooCommerce' ) ) {
 			/**
 			 * Handle Payment Method request.
 			 */
-			register_rest_route( 'wc/v2', 'stripe_payment', array(
+			register_rest_route( 'wc/v2', 'stripe-payment', array(
 				'methods'  => 'POST',
 				'callback' => array( $this, 'wc_rest_payment_endpoint_handler' ),
 			) );
